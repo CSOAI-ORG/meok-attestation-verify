@@ -58,6 +58,8 @@ Subscribe: <https://buy.stripe.com/14A4gB3K4eUWgYR56o8k836>
 
 → **[Get started at councilof.ai](https://councilof.ai)**
 
+> **If this tool helps your compliance workflow, please [star this repo](https://github.com/CSOAI-ORG/meok-attestation-verify/stargazers)** — it helps other teams find it.
+
 ## License
 
 MIT — [MEOK AI Labs](https://meok.ai), 2026.
