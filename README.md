@@ -50,7 +50,7 @@ Signed attestations are issued by these MCP servers (Pro tier, £199/mo):
 - [`csrd-compliance-mcp`](https://pypi.org/project/csrd-compliance-mcp/)
 - [`gods-eye-geospatial-mcp`](https://pypi.org/project/gods-eye-geospatial-mcp/)
 
-Subscribe: <https://buy.stripe.com/14A4gB3K4eUWgYR56o8k836>
+Subscribe: <https://buy.stripe.com/00wfZjcgAeUW4c5cyQ8k90K>
 
 ## Full Compliance Platform
 
@@ -65,3 +65,21 @@ Subscribe: <https://buy.stripe.com/14A4gB3K4eUWgYR56o8k836>
 MIT — [MEOK AI Labs](https://meok.ai), 2026.
 
 <!-- mcp-name: io.github.CSOAI-ORG/meok-attestation-verify -->
+
+<!-- meok-moat-footer-v1 -->
+---
+
+## Pairs with MEOK Governance Suite
+
+Build something that touches users? You need compliance. MEOK ships 38 governance MCPs that drop in alongside this tool — EU AI Act, DORA, NIS2, CRA, GDPR, ISO 42001, FDA SaMD, MDR, Basel, MiFID II, MiCA, COPPA, and more.
+
+```bash
+# One-shot install of the governance pack
+npx meok-setup --pack governance
+```
+
+Free tier: 10 calls/day per MCP. Pro tier (£79/mo): unlimited + cryptographically signed compliance attestations your auditor verifies independently.
+
+→ Full catalogue: [councilof.ai/catalogue](https://councilof.ai/catalogue)
+→ MEOK AI Labs: [meok.ai](https://meok.ai)
+
