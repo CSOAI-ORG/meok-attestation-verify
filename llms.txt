@@ -1,0 +1,17 @@
+# meok-attestation-verify
+
+> Tiny zero-dependency verifier for MEOK AI Labs compliance attestations (DORA, NIS2, CRA, EU AI Act, CSRD, AI-BOM, Gods Eye). Pipe a signed cert on stdin, get VALID/INVALID back. HMAC-SHA256. By MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: mcp. Transport: stdio.
+
+## Tools
+- (see README)
+
+## Install
+```
+pip install meok-attestation-verify
+```
+
+## Links
+- PyPI: https://pypi.org/project/meok-attestation-verify/
+- Docs: https://meok.ai

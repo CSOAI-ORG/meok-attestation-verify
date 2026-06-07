@@ -1,0 +1,12 @@
+{
+  "name": "meok-attestation-verify",
+  "title": "Meok Attestation Verify",
+  "description": "Tiny zero-dependency verifier for MEOK AI Labs compliance attestations (DORA, NIS2, CRA, EU AI Act, CSRD, AI-BOM, Gods Eye). Pipe a signed cert on stdin, get VALID/INVALID back. HMAC-SHA256. By MEOK AI Labs.",
+  "version": "1.0.3",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": []
+}

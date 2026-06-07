@@ -1,0 +1,19 @@
+name: meok-attestation-verify
+description: "Tiny zero-dependency verifier for MEOK AI Labs compliance attestations."
+version: 1.0.2
+author: MEOK AI Labs
+homepage: https://meok.ai
+repository: https://github.com/MEOK-AI-Labs/meok-attestation-verify
+license: MIT
+categories:
+  - compliance
+  - ai
+  - governance
+
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+    - fastapi
+    - uvicorn
+    - mcp

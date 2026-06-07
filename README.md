@@ -76,3 +76,26 @@ MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
 <p align="center">
   <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
 </p>
+
+
+## Configuration
+
+Add to your `claude_desktop_config.json` (Claude Desktop) or your MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "meok-attestation-verify": {
+      "command": "uvx",
+      "args": ["meok-attestation-verify"]
+    }
+  }
+}
+```
+
+Or: `pip install meok-attestation-verify` then run the `meok-attestation-verify` command (stdio transport).
+
+## Examples
+
+Once configured, ask your assistant, for example:
+- "Use `the available tools` to …"
