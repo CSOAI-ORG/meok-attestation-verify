@@ -1,0 +1,22 @@
+{
+  "name": "meok-attestation-verify",
+  "description": "Tiny zero-dependency verifier for MEOK AI Labs compliance attestations (DORA, NIS2, CRA, EU AI Act, ",
+  "url": "https://proofof.ai/scorecard/meok-attestation-verify.html",
+  "version": "1.0.3",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": []
+}

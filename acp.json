@@ -1,0 +1,17 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-attestation-verify",
+    "description": "Tiny zero-dependency verifier for MEOK AI Labs compliance attestations (DORA, NIS2, CRA, EU AI Act, ",
+    "version": "1.0.3",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-attestation-verify"
+      }
+    ],
+    "capabilities": []
+  }
+}
