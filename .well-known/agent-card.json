@@ -1,0 +1,52 @@
+{
+  "name": "Meok Attestation Verify",
+  "version": "1.0.3",
+  "url": "https://mcp.meok.ai/meok-attestation-verify/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "Tiny zero-dependency verifier for MEOK AI Labs compliance attestations (DORA, NIS2, CRA, EU AI Act, CSRD, AI-BOM, Gods Eye). Pipe a signed cert on stdin, get VALID/INVALID back. HMAC-SHA256. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "meok-attestation-verify",
+      "name": "Meok Attestation Verify",
+      "description": "Tiny zero-dependency verifier for MEOK AI Labs compliance attestations (DORA, NIS2, CRA, EU AI Act, CSRD, AI-BOM, Gods Eye). Pipe a signed cert on stdin, get VALID/INVALID back. HMAC-SHA256. By MEOK AI Labs.",
+      "tags": [
+        "compliance",
+        "dora",
+        "nis2",
+        "cra",
+        "attestation"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-attestation-verify",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
